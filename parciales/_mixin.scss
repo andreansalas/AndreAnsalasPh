@@ -1,0 +1,51 @@
+@mixin carta {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+@mixin carta_texto {
+    display: flex;
+    flex-direction: column;
+    font-family: raleway;
+    align-items: center;
+}
+
+@mixin carta_h2 {
+    align-self: flex-start;
+    opacity: 0.6;
+    margin: 30px;
+    font-size: $font-size-lg;
+    
+}
+
+@mixin carta_h3 {
+    justify-self: flex-start;
+    align-self: flex-start;
+    padding: 20px;
+    font-size: $font-size-xl;
+}
+
+@mixin carta_h4 {
+    align-self: flex-start;
+    opacity: 0.6;
+    margin: 30px;
+    font-size: $font-size-lg;
+}
+
+@mixin carta_p {
+margin-left: 30px;
+align-self: flex-start;
+font-size: $font-size-sm;
+letter-spacing: 1px;
+line-height: 30px;
+max-width: 60ch;
+padding-right: 2rem;
+}
+
+@mixin galerias {
+    font-family: raleway;
+    font-size: $font-size-md;
+    margin: 30px;
+}

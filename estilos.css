@@ -216,6 +216,8 @@ div ul li a:hover {
 
 /* SECCIÓN EDITORIAL & BEAUTY */
 
+/* Pasado a SCSS --------------------
+
 .intro_editorial{
     display: flex;
     justify-content: center;
@@ -259,6 +261,7 @@ letter-spacing: 1px;
 line-height: 30px;
 }
 
+
 .galeria{
     font-family: raleway;
     font-size: var(--step-2);
@@ -270,7 +273,7 @@ line-height: 30px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
-
+    
 }
 .imged1{
     grid-column: 1/span 1;
@@ -302,9 +305,13 @@ line-height: 30px;
     grid-row: 4/span 2 ;
     justify-self: flex-end;
 }
+*/
+
 /* FIN SECCIÓN EDITORIAL & BEAUTY */
 
 /*SECCIÓN BOUDOIR*/
+
+/*
 
 .galeria_boudoir{
     display: flex;
@@ -379,7 +386,10 @@ margin: 80px
 }
 /* FIN SECCIÓN BOUDOIR */
 
+
 /* SECCIÓN ABOUT */
+
+/*
 
 .intro_about{
 display: flex;
@@ -395,6 +405,8 @@ margin-left: 500px;
 /* FIN SECCIÓN ABOUT */
 
 /* SECCION CONTACTO */
+
+/*
 .form {
     padding: 30px;
     background-color: whitesmoke;

@@ -1,0 +1,71 @@
+.intro_editorial{
+    @include carta;
+    .texto_ed {
+      @include carta_texto;
+      
+      h3 {
+          @include carta_h3;
+
+      }
+      
+      p {
+          @include carta_p;
+          
+    }
+
+    }
+    
+}
+
+.galeria {
+   @include galerias;
+
+    .galeria_editorial {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        .imged1{
+            grid-column: 1/span 1;
+            grid-row: 1/span 3 ;
+        }
+        .imged2 {
+            grid-column: 2/span 1;
+            grid-row: 3/span 3 ;
+        }
+        
+        .imged3{
+            grid-column: 3/span 1;
+            grid-row: 1/span 3 ;
+        }
+        
+        .imged4{
+            grid-column: 3/span 1;
+            grid-row: 4/span 2 ;
+        }
+        
+        .imged5{
+            grid-column: 2/span 1;
+            grid-row: 1/span 2 ;
+            align-self: flex-end;
+        }
+        
+        .imged6 {
+            grid-column: 1/span 1;
+            grid-row: 4/span 2 ;
+            justify-self: flex-end;
+        }
+    
+    }
+}
+
+
+.reverse {
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+
+
+
+

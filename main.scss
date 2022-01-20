@@ -1,4 +1,22 @@
 @import "./parciales/variables";
+@import "./parciales/fonts";
+
+
+
+
+@import "./parciales/mixin";
+
+
+
+
+@import "./parciales/editorial";
+@import "./parciales/boudoir";
+@import "./parciales/about";
+@import "./parciales/contacto";
+
+
+
+
 
 
 
@@ -10,53 +28,59 @@
     }
 
     /* Hasta acá el reset */
+/* ----------------Clases reutilizables -------------------*/ 
+
+.contenedor {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0.75rem;
+}
 
     /* ------------------------- Comienzo Header  --------------------- */
     
     .header_index {
-    background-image: url(./Multimedia/fondos/sincerely-media-p-NQlmGvFC8-unsplash.jpg);
+   background-image: url(./Multimedia/fondos/sincerely-media-p-NQlmGvFC8-unsplash.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
-    
-    input {
-        display: none;
-    }
 
-    label {
-        display: none;
-        width: 30px;
-        height: 30px;
-        padding: 15px;
-        border-right: 1px solid whitesmoke;
-    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+            h1, h2 {
+        color: whitesmoke;
+        }
 
-    h1, h2 {
-    color: whitesmoke;
-    margin-left: 40px;
     }
 
     h1 {
-        padding-top: 20px;
+
         font-family: julius sans one serif;
-        font-size: var(--step-2);
+        font-size: $font-size-xl;
+        p {
+            font-size: $font-size-sm;
+            font-weight: 200;
+            font-family: gruppo;
+        }
     }
 
     h2 {
         font-family: julius sans one;
-        font-size: var(--step-1);
+        font-size: $font-size-lg;
         font-variant: small-caps;
         font-stretch: 10;
         }
 
     nav {
+
         ul {
 
-            display: flex;
+        display: flex;
         list-style: none;
         justify-content: right;
-        align-items: center;
+        align-self: center;
+        font-size: $font-size-sm;
+        font-weight: 200;
         gap: 20px;
-        padding: 20px;
 
             a {
 
@@ -69,7 +93,6 @@
             opacity: 0.6;
      color: black;
         }
-
 
             }
 

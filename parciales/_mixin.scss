@@ -1,3 +1,42 @@
+
+@mixin carta {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+@mixin carta_texto {
+    flex-direction: column;
+    font-family: raleway;
+    align-items: center;
+}
+
+@mixin carta_h2 {
+    opacity: 0.6;
+    margin: 30px;
+    
+}
+
+@mixin carta_h3 {
+}
+
+@mixin carta_h4 {
+    opacity: 0.6;
+}
+
+@mixin carta_p {
+letter-spacing: 1px;
+line-height: 30px;
+max-width: 60ch;
+}
+
+@mixin galerias {
+    font-family: raleway;
+}
+
+
+/* ----------------este es el original sin boostrap ----
 @mixin carta {
     display: flex;
     justify-content: center;

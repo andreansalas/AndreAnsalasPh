@@ -36,6 +36,14 @@ margin: 0 auto;
 padding: 0.75rem;
 }
 
+.a-car {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+
+
     /* ------------------------- Comienzo Header  --------------------- */
     
     .hbg {
@@ -164,6 +172,10 @@ footer {
     background-image: url(./Multimedia/fondos/sincerely-media-p-NQlmGvFC8-unsplash.jpg);
     background-repeat:no-repeat;
     background-size: 100vw;
+
+    .f_li {
+        color: whitesmoke;
+    }
 
     div{
         display: flex;

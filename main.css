@@ -39,9 +39,6 @@
 }
 
 .intro_editorial .texto_ed {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -52,104 +49,14 @@
           align-items: center;
 }
 
-.intro_editorial .texto_ed h3 {
-  justify-self: flex-start;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  padding: 20px;
-  font-size: 3rem;
-}
-
 .intro_editorial .texto_ed p {
-  margin-left: 30px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  font-size: 1.5rem;
   letter-spacing: 1px;
   line-height: 30px;
   max-width: 60ch;
-  padding-right: 2rem;
 }
 
 .logo {
   font-family: raleway;
-}
-
-.af .af {
-  margin-left: auto;
-}
-
-.galeria {
-  font-family: raleway;
-  font-size: 1.75rem;
-  margin: 30px;
-}
-
-.galeria .galeria_editorial {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 10px;
-}
-
-.galeria .galeria_editorial .imged1 {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/span 1;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
-  grid-row: 1/span 3;
-}
-
-.galeria .galeria_editorial .imged2 {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/span 1;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 3;
-  grid-row: 3/span 3;
-}
-
-.galeria .galeria_editorial .imged3 {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
-  grid-column: 3/span 1;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
-  grid-row: 1/span 3;
-}
-
-.galeria .galeria_editorial .imged4 {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
-  grid-column: 3/span 1;
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 2;
-  grid-row: 4/span 2;
-}
-
-.galeria .galeria_editorial .imged5 {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/span 1;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  grid-row: 1/span 2;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-}
-
-.galeria .galeria_editorial .imged6 {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/span 1;
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 2;
-  grid-row: 4/span 2;
-  justify-self: flex-end;
 }
 
 .reverse {
@@ -173,9 +80,6 @@
 }
 
 .intro_editorial .texto_ed {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -187,36 +91,14 @@
 }
 
 .intro_editorial .texto_ed h2 {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
   opacity: 0.6;
   margin: 30px;
-  font-size: 2rem;
-}
-
-.intro_editorial .texto_ed h3 {
-  justify-self: flex-start;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  padding: 20px;
-  font-size: 3rem;
 }
 
 .intro_editorial .texto_ed p {
-  margin-left: 30px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  font-size: 1.5rem;
   letter-spacing: 1px;
   line-height: 30px;
   max-width: 60ch;
-  padding-right: 2rem;
-}
-
-.galeria {
-  font-family: raleway;
-  font-size: 1.75rem;
-  margin: 30px;
 }
 
 .galeria_boudoir {
@@ -354,9 +236,6 @@
 }
 
 .intro_about .texto_ed {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -367,31 +246,15 @@
           align-items: center;
 }
 
-.intro_about .texto_ed h3 {
-  justify-self: flex-start;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  padding: 20px;
-  font-size: 3rem;
-}
-
 .intro_about .texto_ed h2 {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
   opacity: 0.6;
   margin: 30px;
-  font-size: 2rem;
 }
 
 .intro_about .texto_ed p {
-  margin-left: 30px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  font-size: 1.5rem;
   letter-spacing: 1px;
   line-height: 30px;
   max-width: 60ch;
-  padding-right: 2rem;
 }
 
 .volver {
@@ -499,6 +362,13 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0.75rem;
+}
+
+.a-car {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1/1;
 }
 
 /* ------------------------- Comienzo Header  --------------------- */

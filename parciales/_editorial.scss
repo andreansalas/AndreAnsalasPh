@@ -1,5 +1,8 @@
 .intro_editorial{
     @include carta;
+    .portadas_carta{
+        height: auto;
+    }
     .texto_ed {
       @include carta_texto;
       
@@ -8,10 +11,6 @@
 
       }
       
-      p {
-          @include carta_p;
-          
-    }
 
     }
     
@@ -27,6 +26,7 @@
     flex-direction: row-reverse;
     gap: 20px;
 }
+
 
 
 

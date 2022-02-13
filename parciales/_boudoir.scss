@@ -63,7 +63,21 @@ justify-content: center;
     }
 
 }
+#galeria .col-lg-4 {
+    margin: 0;
+    padding-top: 25px;
+}
+#galeria img {
+    width: 80%;
+    height: 400px;
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+    }
+}
 
+#galeria img:hover {
+    border: 5px solid white ;
+}
 
 .volver{
     display: flex;

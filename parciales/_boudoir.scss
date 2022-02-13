@@ -69,14 +69,29 @@ justify-content: center;
 }
 #galeria img {
     width: 80%;
-    height: 400px;
+    height: 450px;
     @media screen and (max-width: 1024px) {
         width: 100%;
     }
+
 }
 
 #galeria img:hover {
     border: 5px solid white ;
+}
+
+.media-mobile {
+      @media screen and (max-width: 320px) {
+        display: none;
+    
+    }
+}
+
+.media-tablet {
+    @media screen and (max-width: 768px) {
+      display: none;
+  
+  }
 }
 
 .volver{

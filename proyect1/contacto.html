@@ -64,87 +64,69 @@
       </nav>
     </header>
 
-<main class="fondo_contacto">
-  <div class="container">
-  <div class="fotoyformulario row">
-  <div>
-    <img class="foto_contacto" src="../Multimedia/Contact/Portada chica.jpg" alt="">
-  </div>
-  <div class="form">
-    <fieldset">
-      <legend>Dejá tu consulta o comentario acá</legend>
-      <br />
-      <form action="">
-        <div>
-          <label for="asunto">Asunto</label>
-          <input
-            placeholder="Ingresá el asunto"
-            type="text"
-            name="Asunto"
-            id="asunto"
-          />
-        </div>
-        <br />
+    <section class="container btn-light p-2 mt-2">
+      <div class="row justify-content-center">
 
-        <div>
-          <label for="Nombre">Nombre</label>
-          <input
-            placeholder="Ingresá tu nombre"
-            type="text"
-            name="nombre"
-            id="nombre"
-          />
-        </div>
-        <br />
+          
+          <div class="col-sm-12 col-md-6 col-lg-6 pb-3">
+            <h2 class="texto_ed mt-3 fs-3">CONTACTO</h2>
 
-        <div>
-          <label for="apellido">Apellido</label>
-          <input
-            placeholder="Ingresá tu apellido"
-            type="text"
-            name="Apellido"
-            id="apellido"
-          />
-        </div>
-        <br />
+              <h3 class="texto_ed fs-6 mb-5">Dejá tu consulta o comentario acá</h3>
+              <div>
+                <img class="foto_contacto rounded-3 mb-5" src="../Multimedia/Contact/Portada chica.jpg" alt="">
+              </div>
+            </div>
 
-        <div>
-          <label for="">Teléfono</label>
-          <input placeholder="Ingresá tu teléfono" type="number" />
-        </div>
-        <br />
+             <form class="col-md-6 col-lg-6">
+                 
+                  <div class="mb-3">
+                      <label for="nombre" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Juan">
+                  </div>
 
-        <div>
-          <label>E-Mail</label>
-          <input placeholder="Ingresá tu email" type="email" />
-        </div>
-        <br />
+                  <div class="mb-3">
+                      <label for="apellido" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="apellido" placeholder="Perez">
+                  </div>
 
-        <div>
-          <label>Mensaje</label>
-          <input
-            placeholder="Escribí tu mensaje"
-            type="text"
-            name="consulta"
-            id="consulta"
-          />
-        </div>
-        <br />
+                  <div class="mb-3">
+                    <label for="colores" class="form-label">Seleccione el motivo de la consulta</label>
+                    <select id="colores" class="form-select">
+                        <option value="r">Presupuesto book</option>
+                        <option value="r">Presupuesto para eventos</option>
+                        <option value="v">Presupuesto edición</option>
+                        <option value="a">Servicios para empresas</option>
+                        <option value="a">Otro</option>
+                    </select>
+                </div>
 
-        <input type="submit" value="Enviar Mensaje" />
-        <input type="reset" value="Borrar" />
+                  <div class="mb-3">
+                    <label for="mail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="mail" placeholder="juanperez@gmail.com">
+                </div>
 
-      </form>
-    </fieldset>
-  </div>
-</div>
-</div>
+                <div class="mb-3">
+                  <label for="telefono" class="form-label">Teléfono</label>
+                  <input type="number" class="form-control" id="telefono" placeholder="1156575859">
+              </div>
 
-    <section class="googlemaps">
-      <h3>¿Dónde nos encontrás?</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15629.508960938114!2d-58.46205757579263!3d-34.56116273454591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d28526611d%3A0xbcb585a9ddc70069!2sBelgrano%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1638062491536!5m2!1ses-419!2sar" width="1000px" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              <div class="mb-3">
+                <label for="comentario" class="form-label">Mensaje</label>
+                <textarea id="comentario" class="form-control" cols="30" rows="5" placeholder="Dejá acá tu mensaje..."></textarea>
+            </div>
+                  <input type="reset" value="limpiar" class="btn btn-light m-2">
+                  <input type="submit" value="enviar" class="btn btn-dark m-2">
+              </form>
+
+              <section class="container my-5">
+                <div class="row">
+                <h3 class="col-12 mb-3">¿Dónde me encontrás?</h3>
+                  <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15629.508960938114!2d-58.46205757579263!3d-34.56116273454591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d28526611d%3A0xbcb585a9ddc70069!2sBelgrano%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1638062491536!5m2!1ses-419!2sar" width="1000px" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                </section>
+          </div>
+      </div>
   </section>
-  </main>
 
   <footer>
     <div class="container d-flex justify-content-center">
@@ -185,7 +167,7 @@
               <a
                 class="instagram"
                 href="https://www.instagram.com/andreansalasph"
-                >Instagram</a
+                ></a
               >
             </li>
           </ul>

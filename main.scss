@@ -180,20 +180,8 @@ footer {
         display: flex;
         justify-content: space-between;
 
-        ul.datos {
-            align-items: flex-start;
-            justify-content: flex-start;
-            flex-direction: column;
-            list-style: none;
-            padding-left: 30px;
-            font-family: raleway;
-
-                li.li1 {
-                    font-weight: 700;
-                }
-
+        ul {
                 li {
-
                     a {
                         text-decoration: none;
                         color: black;
@@ -202,33 +190,23 @@ footer {
                             opacity: 0.6;
                         }
 
-
                     }
                 } 
-
             }
 
-        ul.redes {
-            list-style: none;
-            align-items: flex-end;
-            justify-content: space-between;
-            padding-right: 30px;
-            flex-direction: column;
-            font-family: raleway;
-            font-weight: 700;
+        ul {
+            
+            li {
+                list-style: none;  
 
-            .instagram{
+            .instagram {
                 background-image:url(./Multimedia/Iconos/instagram.png);
                 background-repeat: no-repeat;
                 padding-left: 30px;
+                color: whitesmoke;
             
             }
-
-            .twitter{
-                background-image: url(./Multimedia/Iconos/logotipo-de-twitter.png);
-                background-repeat: no-repeat;
-                padding-left: 30px;
-            }
+        }
         
         }
         

@@ -480,61 +480,23 @@ footer div {
           justify-content: space-between;
 }
 
-footer div ul.datos {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  list-style: none;
-  padding-left: 30px;
-  font-family: raleway;
-}
-
-footer div ul.datos li.li1 {
-  font-weight: 700;
-}
-
-footer div ul.datos li a {
+footer div ul li a {
   text-decoration: none;
   color: black;
 }
 
-footer div ul.datos li a:hover {
+footer div ul li a:hover {
   opacity: 0.6;
 }
 
-footer div ul.redes {
+footer div ul li {
   list-style: none;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-right: 30px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-family: raleway;
-  font-weight: 700;
 }
 
-footer div ul.redes .instagram {
+footer div ul li .instagram {
   background-image: url(./Multimedia/Iconos/instagram.png);
   background-repeat: no-repeat;
   padding-left: 30px;
-}
-
-footer div ul.redes .twitter {
-  background-image: url(./Multimedia/Iconos/logotipo-de-twitter.png);
-  background-repeat: no-repeat;
-  padding-left: 30px;
+  color: whitesmoke;
 }
 /*# sourceMappingURL=main.css.map */
